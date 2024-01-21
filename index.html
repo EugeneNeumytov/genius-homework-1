@@ -6,6 +6,7 @@
     <title lang="en">Beauty zone</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header>
       <nav>
@@ -37,7 +38,7 @@
     </header>
 
     <main>
-      <section>
+      <section id="main-section">
         <p>Косметологічна клініка</p>
         <h1 lang="en" class="main-title">beauty zone</h1>
         <button class="main-button" type="button">Замовити дзвінок</button>
@@ -45,9 +46,9 @@
           Запишись та отримай безкоштовну консультацію нашого косметолога
         </p>
       </section>
-      <section>
+      <section id="publicity-section">
         <h2 class="section-title">
-          Перевтілюйтесь в <span class="title-beauty">beauty zone!</span>
+          Перевтілюйтесь в <span class="publicity-title">beauty zone!</span>
         </h2>
         <div class="publicity-text">
           <p>
@@ -62,9 +63,11 @@
           </p>
         </div>
       </section>
-      <section>
-        <h2 class="section-title">Чому люди обирають нас</h2>
-        <ul>
+      <section id="selection-section">
+        <h2 class="section-title">
+          Чому люди <span class="selection-title">обирають нас</span>
+        </h2>
+        <ul class="selection-article">
           <li>
             <article>
               <h3>
@@ -104,8 +107,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="section-title">Наші процедури</h2>
+      <section id="procedure-section">
+        <h2 class="section-title">
+          Наші <span class="procedure-title">процедури</span>
+        </h2>
         <ul>
           <li>
             <img src="./images/procedures-mask.jpg" alt="Маскі" />
@@ -118,8 +123,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="section-title">Як нас знайти</h2>
+      <section id="find-section">
+        <h2 class="section-title">
+          Як нас <span class="find-title">знайти</span>
+        </h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.4764795969304!2d30.770364688537402!3d50.506700598383496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgMDc0MDA!5e0!3m2!1sru!2spl!4v1705005095342!5m2!1sru!2spl"
           width="605"
@@ -138,31 +145,40 @@
           <img src="./images/logo.svg" alt="Логотип" />
         </a>
         <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="footer-link" href="#">Про нас</a></li>
+          <li><a class="footer-link" href="#">Чому ми</a></li>
+          <li><a class="footer-link" href="#">Наші процедури</a></li>
+          <li><a class="footer-link" href="#">Контакти</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
           <li>
-            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+            <a class="footer-link" href="tel:+380960000007"
+              >+ 38 (096) 000 00 07</a
+            >
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/9T2UQ1c2zL4S4gaU7" target="_blank"
+            <a class="footer-link" href="mailto:beautyzone@gmail.com"
+              >beautyzone@gmail.com</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer-link"
+              href="https://maps.app.goo.gl/9T2UQ1c2zL4S4gaU7"
+              target="_blank"
               >Україна, м. Київ, вул. Тараса Шевченка 5</a
             >
           </li>
           <li>
-            <a href="#"
+            <a class="footer-link" href="#"
               ><img src="./images/telephone-receiver_icon.svg" alt="phone-call"
             /></a>
           </li>
           <li>
-            <a href="#"
-              ><img src="./images/uit_facebook-f.svg" alt="facebook"
+            <a href="#">
+              <img src="./images/uit_facebook-f.svg" alt="facebook"
             /></a>
           </li>
           <li>
@@ -171,7 +187,7 @@
             /></a>
           </li>
         </ul>
-        <a class="adress-link" href="#" target="_blank">
+        <a class="footer-link" href="#" target="_blank">
           Політика конфіденційності</a
         >
         <p class="copyright">&copy; 2022 Дані захищені</p>
